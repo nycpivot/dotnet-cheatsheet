@@ -1,13 +1,13 @@
-#PRE .NET (COM, COM+)
+# PRE .NET (COM, COM+)
 
 Classic ASP (Active Server Pages)
 
-Released in 1998.
-Minimal production usage (EY).
-Files end with .asp extension.
-Based on VBScript (or Javascript).
-Code is interpreted at runtime.
-Object creation requires COM & Windows Registry (DLL Hell).
+- Released in 1998.
+- Minimal production usage (EY).
+- Files end with .asp extension.
+- Based on VBScript (or Javascript).
+- Code is interpreted at runtime.
+- Object creation requires COM & Windows Registry (DLL Hell).
 
 .NET FRAMEWORK (4.8 final version)
 
