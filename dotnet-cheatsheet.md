@@ -1,4 +1,4 @@
-# PRE .NET (COM, COM+)
+## PRE .NET (COM, COM+)
 
 ### Classic ASP (Active Server Pages)
 
@@ -9,180 +9,174 @@
 - Code is interpreted at runtime.
 - Object creation requires COM & Windows Registry (DLL Hell).
 
-.NET FRAMEWORK (4.8 final version)
+## .NET FRAMEWORK (4.8 final version)
 
-ASP.NET WebForms
+### ASP.NET WebForms
 
-Officially released in 2002.
-Continued support through .NET Framework 4.8.
-Wide and broad production usage.
-Introduction of C# (supports VB and C#).
-Drag-and-drop designer (like Windows Forms, aka, WinForms).
-Files end with .aspx extension.
-Precompiled, code-behind modules.
-Underlying concepts of raw HTTP verbs are abstracted.
-HTML abstracted by server controls (runat=server) mixed with HTML elements.
-ViewState dictionary maintains form and control state with server.
-Web.Config externalizes common settings and configurations.
-Windows and Forms-based authentication.
-Rapid Application Development (RAD).
+- Officially released in 2002.
+- Continued support through .NET Framework 4.8.
+- Wide and broad production usage.
+- Introduction of C# (supports VB and C#).
+- Drag-and-drop designer (like Windows Forms, aka, WinForms).
+- Files end with .aspx extension.
+- Precompiled, code-behind modules.
+- Underlying concepts of raw HTTP verbs are abstracted.
+- HTML abstracted by server controls (runat=server) mixed with HTML elements.
+- ViewState dictionary maintains form and control state with server.
+- Web.Config externalizes common settings and configurations.
+- Windows and Forms-based authentication.
+- Rapid Application Development (RAD).
 
-ASP.NET Web Services
+### ASP.NET Web Services
 
-Officially released in 2002.
-Continued support through .NET Framework 4.8.
-Production usage uncertain.
-Support of XML SOAP Web Services.
-Easily expose and consume XML data over HTTP.
-Files end with .asmx extension.
-Wizards create proxies in consuming applications.
-Web.Config externalizes common settings and configurations.
-Windows and Forms-based authentication.
-Rapid Application Development (RAD).
+- Officially released in 2002.
+- Continued support through .NET Framework 4.8.
+- Production usage uncertain.
+- Support of XML SOAP Web Services.
+- Easily expose and consume XML data over HTTP.
+- Files end with .asmx extension.
+- Wizards create proxies in consuming applications.
+- Web.Config externalizes common settings and configurations.
+- Windows and Forms-based authentication.
+- Rapid Application Development (RAD).
 
+### WCF (Windows Communication Foundation)
 
+- Officially released in 2006.
+- Introduced with .NET Framework 3.0.
+- Continued support through .NET Framework 4.8.
+- Wide production usage.
+- More powerful than asmx at the cost of complexity.
+- Bindings for TCP, Named Pipes, MSMQ.
+- Three hosting options 1) IIS, 2) Windows Service, or 3) Self-hosted.
+- Complex configuration.
 
+### WPF (Windows Presentation Foundation)
 
-WCF (Windows Communication Foundation)
+- Officially released in 2006.
+- Evolution of desktop applications.
+- Very rich and advanced GUI development.
+- Frequently employed in financial trading.
 
-Officially released in 2006.
-Introduced with .NET Framework 3.0.
-Continued support through .NET Framework 4.8.
-Wide production usage.
-More powerful than asmx at the cost of complexity.
-Bindings for TCP, Named Pipes, MSMQ.
-Three hosting options 1) IIS, 2) Windows Service, or 3) Self-hosted.
-Complex configuration.
+	*DESKTOP ONLY! NOT A CANDIDATE FOR CONTAINERIZATION. HERE FOR REFERENCE ONLY.*
 
-WPF (Windows Presentation Foundation)
+## .NET FRAMEWORK & CORE
 
-Officially released in 2006.
-Evolution of desktop applications.
-Very rich and advanced GUI development.
-Frequently employed in financial trading.
+### ASP.NET MVC
 
-	Desktop only! Not a candidate for containerization. Here for reference only.
+- Officially released in 2007.
+- Continued support through .NET Framework 4.8.
+- Wide production usage.
+- Better separation of concerns (in comparison to WebForms).
+- More flexibility at the HTTP and HTML levels (less abstraction).
+- Controller methods align closer to HTTP verbs.
 
-.NET FRAMEWORK & CORE
+### ASP.NET WebAPI
 
-ASP.NET MVC
+- Officially released in 2012.
+- Might see remnants of WCF API.
+- Continued support through .NET Framework 4.8.
+- Wide production usage.
+- Adoption of HTTP RESTful principles.
+- Core HTTP constructs (verbs, response status codes, etc).
+- An alternative to complex WCF abstractions and configurations.
 
-Officially released in 2007.
-Continued support through .NET Framework 4.8.
-Wide production usage.
-Better separation of concerns (in comparison to WebForms).
-More flexibility at the HTTP and HTML levels (less abstraction).
-Controller methods align closer to HTTP verbs.
+### Windows Services
 
-ASP.NET WebAPI
+- A background process, much like a Linux daemon.
+- Project specific template, configuration, deployments.
+- Tightly integrated into the core Windows administrative services.
+- Scheduling, security, system event logs.
 
-Officially released in 2012.
-Might see remnants of WCF API.
-Continued support through .NET Framework 4.8.
-Wide production usage.
-Adoption of HTTP RESTful principles.
-Core HTTP constructs (verbs, response status codes, etc).
-An alternative to complex WCF abstractions and configurations.
+### Console
 
-Windows Services
+- Text-based command line.
+- Simpler alternative to Windows services.
+- Usually launched from Task Scheduler.
 
-A background process, much like a Linux daemon.
-Project specific template, configuration, deployments.
-Tightly integrated into the core Windows administrative services.
-Scheduling, security, system event logs.
+## IDE
 
-Console
+### Visual Studio
 
-Text-based command line.
-Simpler alternative to Windows services (Task Scheduler).
+- Powerful code editor (C#, VB, F#, C++).
+- Project templates (MVC, API, Console).
+- Most popular tool for the vast majority of .NET developers.
+- Too heavy for some tasks.
 
-IDE
+### Visual Studio Code
 
-Visual Studio
+- Lightweight code editor.
+- Great for scripting.
+- Command terminal.
+- Large library of plugin components.
+- Cross platform.
 
-Powerful code editor (C#, VB, F#, C++).
-Project templates (MVC, API, Console).
-Most popular tool for the vast majority of .NET developers.
-Too heavy for some tasks.
+## SOURCE CONTROL
 
-Visual Studio Code
+### Visual Source Safe
 
-Lightweight code editor.
-Great for scripting.
-Command terminal.
-Large library of plugin components.
+- The first Microsoft source code control.
+- Production usage unknown.
+- Internal network only.
+- Discontinued.
 
-SOURCE CONTROL
+### Azure DevOps
 
-Visual Source Safe
+- First known as Visual Studio Team Services (VSTS), then Team Foundation Server (TFS).
+- Complete application lifecycle management.
 
-The first Microsoft source code control.
-Production usage unknown.
-Internal network only.
-Discontinued.
+## DATABASES
 
-Azure DevOps
+### MS Access
 
-First known as Visual Studio Team Services (VSTS), then Team Foundation Server (TFS).
-Complete application lifecycle management.
+- Popular database pre .NET.
+- Minimal production usage (EY).
 
-DATABASES
+### SQL Server
 
-MS Access
+- Enterprise RDBMS.
+- Wide production usage.
+- Windows Authentication.
+- SQL Server Authentication.
 
-Popular database pre .NET.
-Minimal production usage (EY).
+### Entity Framework
 
-SQL Server
+- Object Relational Mapper (ORM).
+- Wide production usage.
+- Database First support.
+- Code First support.
+- Builtin automatic migrations (app runs migrations when executed).
 
-Enterprise RDBMS.
-Wide production usage.
-Windows Authentication.
-SQL Server Authentication.
+## OPERATING SYSTEMS & SERVICES
 
-Entity Framework
+### Windows
 
-Object Relational Mapper (ORM).
-Wide production usage.
-Database First support.
-Code First support.
-Builtin automatic migrations.
+- Windows Server Desktop Experience (GUI), Server Core (command line), Nano.
+- Long-Term Service Channels (LTSC) are initial releases (2016, 2019).
+- Semi-Annual Channels (SAC) are bi-annual releases from an initial release.
+- Active Directory (AD), Active Directory Domain Services (AD DS).
+- Windows Authentication.
 
-OPERATING SYSTEM
+### IIS (Internet Information Server)
 
-IIS (Internet Information Server)
+- Windows only.
+- Website hosting.
+- Windows authentication integration.
+- Wide variety of features and integrations with Windows.
 
-Windows only.
-Website hosting.
-Windows authentication integration.
-Wide variety of features and integrations with Windows.
+## Azure
 
-Windows
+## App Services
 
-Windows Server Desktop, Server Core, Nano.
-Long-Term Service Channels (LTSC) vs Semi-Annual Channels (SAC).
-Windows Authentication.
-Active Directory (AD), Active Directory Domain Services (AD DS).
+- Publish (Push) from Visual Studio.
+- Configuration Management.
+- Authentication/Authorization.
+- Deployment Slots (Blue/Green).
 
+## PIVOTAL
 
+### Buildpacks
 
-
-
-
-Azure
-
-App Services
-
-Publish from Visual Studio.
-Configuration Management.
-Authentication/Authorization.
-Deployment Slots.
-
-PIVOTAL
-
-Buildpacks
-
-dotnet_core_buildpack, .NET Core onLinux only.
-binary_buildpack, .NET Core on Windows only.
-hwc_buildpack, .NET Framework on Windows only.
-
+- dotnet_core_buildpack, .NET Core onLinux only.
+- binary_buildpack, .NET Core on Windows only.
+- hwc_buildpack, .NET Framework on Windows only, IIS dependent apps.
