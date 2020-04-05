@@ -9,6 +9,7 @@
 - Code is interpreted at runtime.
 - Object creation requires COM & Windows Registry (DLL Hell).
 
+
 ## .NET FRAMEWORK (4.8 final version)
 
 ### ASP.NET WebForms
@@ -60,6 +61,7 @@
 
 	*DESKTOP ONLY! NOT A CANDIDATE FOR CONTAINERIZATION. HERE FOR REFERENCE ONLY.*
 
+
 ## .NET FRAMEWORK & CORE
 
 ### ASP.NET MVC
@@ -94,6 +96,7 @@
 - Simpler alternative to Windows services.
 - Usually launched from Task Scheduler.
 
+
 ## IDE
 
 ### Visual Studio
@@ -111,6 +114,7 @@
 - Large library of plugin components.
 - Cross platform.
 
+
 ## SOURCE CONTROL
 
 ### Visual Source Safe
@@ -124,6 +128,7 @@
 
 - First known as Visual Studio Team Services (VSTS), then Team Foundation Server (TFS).
 - Complete application lifecycle management.
+
 
 ## DATABASES
 
@@ -147,6 +152,7 @@
 - Code First support.
 - Builtin automatic migrations (app runs migrations when executed).
 
+
 ## OPERATING SYSTEMS & SERVICES
 
 ### Windows
@@ -164,14 +170,16 @@
 - Windows authentication integration.
 - Wide variety of features and integrations with Windows.
 
-## Azure
 
-## App Services
+## AZURE
+
+### App Services
 
 - Publish (Push) from Visual Studio.
 - Configuration Management.
 - Authentication/Authorization.
 - Deployment Slots (Blue/Green).
+
 
 ## PIVOTAL
 
