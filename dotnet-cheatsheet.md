@@ -1,3 +1,7 @@
+# .NET CHEATSHEET
+
+The purpose of this document is to enable solutions engineers, platform architects, developers, operators, and infrastructure teams gain a high-level overview of the most popular Microsoft offerings. For more in-depth use cases that are VMware/Pivotal specific, consult the [.NET Cookbook](https://dotnet-cookbook.cfapps.io/intro/). This is to provide a quick knowledge check with a customer introducing these products.
+
 ## PRE .NET (COM, COM+)
 
 ### Classic ASP (Active Server Pages)
